@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Sem testes configurados\""
-  },
+  "test": "jest"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DanielGomes06/Primeira_Pipeline.git"
@@ -13,5 +13,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^30.5.0"
+  }
 }
