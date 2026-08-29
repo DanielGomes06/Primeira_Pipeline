@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Sem testes configurados\""
   },
   "repository": {
     "type": "git",
@@ -13,9 +13,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/DanielGomes06/Primeira_Pipeline/issues"
-  },
-  "homepage": "https://github.com/DanielGomes06/Primeira_Pipeline#readme"
+  "type": "commonjs"
 }

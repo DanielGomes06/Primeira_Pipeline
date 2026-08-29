@@ -12,13 +12,13 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [22.x]
 
     steps:
-    - name: Baixar o código do repositório
+    - name: Baixar código do repositório
       uses: actions/checkout@v4
 
-    - name: Configurar ambiente Node.js ${{ matrix.node-version }}
+    - name: Configurar Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
@@ -27,5 +27,5 @@ jobs:
     - name: Instalar dependências
       run: npm ci
 
-    - name: Executar testes automatizados
-      run: npm test --if-present
+    - name: Executar testes
+      run: npm test
